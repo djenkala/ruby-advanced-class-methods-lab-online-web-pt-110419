@@ -41,5 +41,7 @@ class Song
   end
   
   def self.new_from_filename
+    parts = self.split(" - ")
+  end
   
 end
